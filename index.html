@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <title>My Cool Website</title>
- </head>
+  <head>
+  
+  <title>My Cool Website</title>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
 
- <body>
+   <style>
+     body{
+       font-family: 'Courier New';
+       max-width: 960px;
+       width: 90%;
+       background-color:#ffffff;
+       margin:auto;
+       padding: 1%;
+     }
+     html{
+       background-color: #ccc;
+      }
 
-   <h1>My Cool Website</h1>
+
+
+
+
+    nav{
+			  text-align:center; /* centers the nav */
+	  	}
+		
+		nav ul {
+				list-style:none; /* removes the bullets */
+			}
+		nav ul li
+			{
+				display:inline-block; /* makes horizontal, but able to declare margins */
+				margin:0 2%; /* margin left-right, gets smaller as necessary */
+			}
+		nav a:hover{
+		  	text-decoration: none;
+		  }	
+
+
+
+
+
+
+
+
+
+
+      footer{text-align:center;
+        clear:both;
+      }
+   </style>
+</head>
+<body>
+<header>
+  <h1>My Cool Website</h1>
+  <!-- nav goes here -->
+  <nav>
+    <ul>
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <li><a href="#">Link 4</a></li>
+      <li><a href="#">Link 5</a></li>
+      <li><a href="#">Link 6</a></li>
+    </ul>
+  </nav>
+</header>
 
    <p>Clever content goes here. If I had more to say, I would say it.  No, I mean it, I really have nothing. Come back later and I'll put something here. Here is how to use the <strong> strong </strong> tag. Here is how to use the <em> emphasis</em> tag. Here is how we use the <strike> strikethrough </strike> tag</p>
 
@@ -16,15 +78,16 @@
 
    <p>
      <ol>
-       <li>mango</li>
-       <li>passion fruit</li>
-       <li>pineapple</li>
+       <li>Mangos</li>
+       <li>Passion Fruit</li>
+       <li>Peaches</li>
      </ol>
    </p>
 
    <p>Here is a picture</p>
 
-   <p><img src="https://picsum.photos/200/300"/></p>
+   <p><img src="https://picsum.photos/200/300" /></p>
+
    <p>Picture provided by <a href="https://picsum.photos/"  target="_blank">Picsum Photos</a></p>
 
 
@@ -60,10 +123,16 @@
     </tr>
   </table>
 
-
+<footer>
+  &copy; 2021 My Cool Website
+</footer>
 
  </body>
 
 
 
 </html>
+
+
+
+
